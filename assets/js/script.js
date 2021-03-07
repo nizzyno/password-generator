@@ -40,10 +40,10 @@ function generatePassword() {
     enter = parseInt(prompt("You must choose between 8 and 128"));
   } else {
     //prompts after user input validated
-    confirmNumber = confirm("Will this contain numbers?");
-    confirmCharacter = confirm("Will this contain special characters?");
-    confirmUppercase = confirm("Will this contain Uppercase letters?");
-    confirmLowercase = confirm("Will this contain Lowercase letters?");
+    confirmNumber = confirm("Will this contain numbers? Ok for YES. Cancel for NO.");
+    confirmCharacter = confirm("Will this contain special characters? Ok for YES. Cancel for NO.");
+    confirmUppercase = confirm("Will this contain Uppercase letters? Ok for YES. Cancel for NO.");
+    confirmLowercase = confirm("Will this contain Lowercase letters? Ok for YES. Cancel for NO.");
   };
 
   //else if for 4 negative options
