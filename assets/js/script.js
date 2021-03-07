@@ -112,19 +112,19 @@ function generatePassword() {
           password.push(pickChoices);
       }
       //joins the password array and converts it to a string
-      var ps = password.join("");
-      UserInput(ps);
-      return ps;
+      var pw = password.join("");
+      UserInput(pw);
+      return pw;
 }
 
 // Add event listener to generate button
 get.addEventListener("click", function () {
-  ps = generatePassword();
-  document.getElementById("password").placeholder = ps;
+  pw = generatePassword();
+  document.getElementById("password").placeholder = pw;
 });
 
 //password value into the textbox
-function UserInput(ps) {
-  document.getElementById("password").textContent = ps;
+function UserInput(pw) {
+  document.getElementById("password").textContent = pw;
 
 }
