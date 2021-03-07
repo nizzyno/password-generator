@@ -117,6 +117,15 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
+/*styles for generate button*/
+#generate {
+  background-color: #f44336;
+  font-size: 20px;
+  padding: 14px 40px;
+  border-radius: 15px;
+  margin-left: 18%;
+  margin-bottom: 10px;
+}
 
 @media (max-width: 690px) {
   .btn {
