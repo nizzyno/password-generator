@@ -122,3 +122,9 @@ get.addEventListener("click", function () {
   ps = generatePassword();
   document.getElementById("password").placeholder = ps;
 });
+
+//password value into the textbox
+function UserInput(ps) {
+  document.getElementById("password").textContent = ps;
+
+}
